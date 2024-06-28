@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+ 
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Clicks by swati</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#grid">Grid Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonial">Testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#movinggallery">Moving Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="img/p5.jpg" class="d-block w-100 c-img" alt="Slide 1">
+        <div class="carousel-caption top-0 mt-4">
+          <p class="mt-5 fs-3 text-uppercase">“I don’t trust words. I trust pictures.”</p>
+          <h1 class="display-1 fw-bolder text-capitalize">– Gilles Peress</h1>
+          
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="img/h12.jpg" class="d-block w-100 c-img" alt="Slide 2">
+        <div class="carousel-caption top-0 mt-4">
+          <p class="text-uppercase fs-3 mt-5">The season has arrived</p>
+          <p class="display-1 fw-bolder text-capitalize">Book Now</p>
+          
+            
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="img/header.jpg" class="d-block w-100 c-img" alt="Slide 3">
+        <div class="carousel-caption top-0 mt-4">
+          <p class="text-uppercase fs-3 mt-5">“When people ask me what equipment I use - I tell them my eyes.”</p>
+          <p class="display-1 fw-bolder text-capitalize">– Diane Arbus</p>
+          
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!---------------------------Grid Photo Gallery-------------------------------------------->
+
+<div id="grid">
+<div class="container">
+  <br><br><h1 class="section__header">Grid Photo Gallery</h1>
+  <div class="row" id="gallery">
+  </div>
+</div>
+</div>
+
+
+
+<!---------------------------Testimonial Slider-------------------------------------------->
+
+<div id="testimonial">
+  <div class="container">
+      <div class="row">
+        <br><br><h1 class="section__header">Testimonials</h1>
+          <div class="about-col-1">
+              <h2 class="section__header">Testimonial 1</h2>
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img src="img/h1.jpeg" class="d-block w-100" alt="Slide 1">
+                      </div>
+                      <div class="carousel-item active">
+                        <img src="img/h2.jpg" class="d-block w-100" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item active">
+                      <img src="img/h6.jpg" class="d-block w-100" alt="Slide 1">
+                  </div>
+                      
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+          <div class="about-col-2">
+            <br><br><br><br><br>
+              <p>“We need another and a wiser and perhaps a more mystical concept of animals… In a world older and more complete than ours, they are more finished and complete, gifted with extensions of the senses we have lost or never attained, living by voices we shall never hear.” </p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div id="testimonial1">
+  <div class="container">
+      <div class="row">
+          <div class="about-col-1">
+              <h2 class="section__header">Testimonial 2</h2>
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img src="img/w1.jpg" class="d-block w-100" alt="Testimonial Image 1">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="img/w5.jpg" class="d-block w-100" alt="Testimonial Image 2">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="img/w4.jpg" class="d-block w-100" alt="Testimonial Image 3">
+                      </div>
+                      
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+          <div class="about-col-2">
+            <br><br><br><br><br>
+              <p>"If I can dig deeper and show more of who people are, aside from it being a wedding day, then I feel I’ve succeeded. Usually, at the end of the night, that comes out.The party’s over, and they one hundred percent become themselves".</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<br>
+<div id="testimonial2"><br><br>
+  <div class="container">
+      <div class="row">
+          <div class="about-col-1">
+              <h2 class="section__header">Testimonial 3</h2>
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img src="img/n1.jpg" class="d-block w-100" alt="Testimonial Image 1">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="img/n2.jpg" class="d-block w-100" alt="Testimonial Image 2">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="img/n3.jpg" class="d-block w-100" alt="Testimonial Image 3">
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+          <div class="about-col-2">
+              <br><br><br><br><br>
+              <p>"It all ultimately comes down to showing respect to nature and understanding the species you want to photograph”.</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<!---------------------------movinggallery-------------------------------------------->
+<div id="movinggallery">
+  <section class="section__container gallery__container">
+    <h2 class="section__header">Moving Gallery</h2>
+    <div class="gallery__flex">
+      <img src="img/h2.jpg" />
+      <img src="img/h12.jpg"  />
+      <img src="img/p2.jpg"  />
+      <img src="img/p3.jpg"  />
+      <img src="img/p5.jpg"  />
+      <img src="img/w1.jpg"  />
+      <img src="img/w2.jpg"  />
+      <img src="img/w3.jpg"  />
+      <img src="img/w4.jpg"  />
+      <img src="img/n2.jpg"  />
+      <img src="img/w6.jpeg"  />
+      <img src="img/w7.jpg" />
+      <img src="img/n1.jpg" />
+      <img src="img/w5.jpg"  />
+      <img src="img/n3.jpg"  />
+    </div>
+  </section>
+  </div>
+
+  <div class="copyright">
+    <p>Copyright © Swati Bansal. </p>
+
+</div>
+
+</body>
+</html>
